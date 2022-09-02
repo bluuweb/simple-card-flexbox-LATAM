@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.flex-container {
+    background-color: peru;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.card {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.card-img-top {
+    min-height: 250px;
+    min-width: 200px;
+    background-image: url("https://belcorp.esika.com/cl/wp-content/uploads/sites/3/2021/04/como-se-crean-perfumes-portada.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.card-body {
+    flex-grow: 1;
+    flex-basis: 0;
+}
